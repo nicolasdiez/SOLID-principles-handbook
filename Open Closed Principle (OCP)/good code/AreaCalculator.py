@@ -1,5 +1,5 @@
 """
-    This class follows the OCP because we can add more shapes (triangle, rombus...) without modifying the AreaCalculator class.
+This class follows the OCP because we can add more shapes (triangle, rombus...) without modifying the AreaCalculator class.
 """
 
 class AreaCalculator:
