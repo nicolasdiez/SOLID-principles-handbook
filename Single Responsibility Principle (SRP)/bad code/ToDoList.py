@@ -1,3 +1,9 @@
+"""
+    SRP: 
+    Every software component component should have one and only one responsibility. 
+    I.e. Every software component should have only one reason to change.
+"""
+
 class ToDoList:
     def init (self):
         self.tasks = []
@@ -13,10 +19,10 @@ class ToDoList:
             print (task)
 
     def input_task (self):
-        task = input("Enter a task name: ")
+        task = input("Enter a task to add: ")
         self.add_task(task)
 
     def remove_task (self):
-        task = input ("Enter the same of the task to remove: ")
+        task = input ("Enter the task to remove: ")
         self.delete_task(task)
 
