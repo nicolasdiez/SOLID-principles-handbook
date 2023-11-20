@@ -1,6 +1,6 @@
 """
-    OCP: 
-    A software component (class, application...) should be Closed for Modification, but Open for Extension.
+OCP: 
+A software component (class, application...) should be Closed for Modification, but Open for Extension.
 """
 import Circle
 import Rectangle

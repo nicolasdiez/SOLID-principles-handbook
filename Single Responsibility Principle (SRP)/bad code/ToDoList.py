@@ -1,7 +1,7 @@
 """
-    SRP: 
-    Every software component component should have one and only one responsibility. 
-    I.e. Every software component should have only one reason to change.
+SRP: 
+Every software component component should have one and only one responsibility. 
+I.e. Every software component should have only one reason to change.
 """
 
 class ToDoList:
