@@ -4,7 +4,12 @@ High-level modules should not depend on low-level modules. Both should depend on
 Abstractions should not depend on details. Details should depend on abstractions.
 
 In this example:
-NotificationService should not depend on EmailService nor SmsService.
+This implementation does not follow DIP.
+Because a high-level module (NotificationService) is dependent on EmailService and SmsService (low-level modules).
+Also, low-level modules (EmailService and SmsService) depend on specific implementations, not on an abstraction.
+
+To comply with DIP NotificationService should depend on an abstraction, not on EmailService or SmsService.
+Also, low-level modules (EmailService and SmsService) should depend on the same abstraction as the high-level module.
 """
 
 import EmailService

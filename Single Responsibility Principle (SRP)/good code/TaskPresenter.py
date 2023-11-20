@@ -1,8 +1,10 @@
+"""
+This class now follows the SRP because it has one only responsibility.
+"""
+
 class TaskPresenter:
     """
     Displays tasks.
-
-    (This class follows SRP because it has one only responsibility)
     """
 
     @staticmethod

@@ -1,8 +1,10 @@
+"""
+This class now follows the SRP because it has one only responsibility.
+"""
+
 class TaskManager:
     """
     Handles the storage and management (add/delete) of tasks.
-    
-    (This class follows SRP because it has one only responsibility)
     """
 
     def init (self):
