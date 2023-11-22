@@ -7,7 +7,7 @@ class TaskManager:
     Handles the storage and management (add/delete) of tasks.
     """
 
-    def init (self):
+    def __init__ (self):
         self.tasks = []
 
     def add_task (self, task):
